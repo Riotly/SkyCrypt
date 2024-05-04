@@ -1,6 +1,7 @@
 import cluster from "cluster";
 import fs from "fs";
 import path from "path";
+const keep_alive = require('./keep_alive.js')
 
 import { getFolderPath } from "./src/helper/cache.js";
 import * as metrics from "./src/helper/metrics.js";

@@ -14,7 +14,7 @@ services:
     volumes:
       - ./credentials.json:/skycrypt/credentials.json
     ports:
-      - 32464:32464
+      - 10000:10000
 
   mongo:
     image: mongo:latest
